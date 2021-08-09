@@ -78,7 +78,7 @@ input[type="submit"] {
   color: azure;
   transition: all 0.1s ease-in-out;
 }
-input[type="submit"]:hover{
+input[type="submit"]:hover {
   background-color: rgb(6, 6, 32);
 }
 #checkbox {
@@ -102,7 +102,7 @@ input[type="submit"]:hover{
   gap: 1rem;
 }
 
-.form--area a{
+.form--area a {
   margin-top: 0.7rem;
 }
 a {
@@ -114,14 +114,16 @@ a {
 /* Responsiveness */
 @media screen and (max-width: 440px) {
   input[type="text"],
-  input[type="password"] {
+  input[type="password"],
+  input[type="email"] {
     width: 300px;
   }
 }
 
 @media screen and (max-width: 300px) {
   input[type="text"],
-  input[type="password"] {
+  input[type="password"],
+  input[type="email"] {
     width: 100%;
   }
 }
