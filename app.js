@@ -26,7 +26,8 @@ forgotPass.addEventListener("click", function () {
     alert(`You didn't input your email address...`);
   } else if (msg !== "") {
     alert(
-      `We will send a 4-digit code to ${msg} in order for you to reset your password. Please check your inbox`
+      `We will send a 4-digit code to
+${msg} in order for you to reset your password. Please check your inbox`
     );
   }
 });
