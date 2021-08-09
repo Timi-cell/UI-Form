@@ -116,11 +116,11 @@ a {
   input[type="text"],
   input[type="password"],
   input[type="email"] {
-    width: 300px;
+    width: 340px;
   }
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 333px) {
   input[type="text"],
   input[type="password"],
   input[type="email"] {
