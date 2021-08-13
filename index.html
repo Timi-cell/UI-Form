@@ -4,7 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="./logo.jpg" type="image/x-icon" >
+    <link rel="shortcut icon" href="./logo.jpg" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+        <script
+      src="https://kit.fontawesome.com/8725ddc164.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
     <title>UI Form</title>
@@ -35,19 +45,28 @@
           />
         </div>
         <div>
-          <input type="checkbox" id="checkbox"  />
+          <input type="checkbox" id="checkbox" />
           <label for="checkbox" id="fourth">Remember Me</label>
         </div>
         <input type="submit" value="Sign in" id="signIn" />
         <a href="#" id="forgotPass">Forgot Password?</a>
+                  <p class="other_side">OR</p>
+<div class="icons">
+  
+<i class="fab fa-facebook"></i>
+<i class="fab fa-google"></i>
+<i class="fab fa-linkedin"></i>
+<i class="fab fa-twitter"></i>
+<i class="fab fa-apple"></i>
+</div>
+        </div>
       </div>
-        <!-- <a href="#">Forgot Password?</a> -->
-        <p>
-          Don't have an account yet? <a href="#" id="clickMe"> Click Here</a> to
-          Sign Up.
-        </p>
-        <p>Copyright &copy; 2021. Built By Timi</p>
-
+      <!-- <a href="#">Forgot Password?</a> -->
+      <p>
+        Don't have an account yet? <a href="#" id="clickMe"> Click Here</a> to
+        Sign Up.
+      </p>
+      <p>Copyright &copy; 2021. Built By Timi</p>
     </form>
     <!-- Sign up page -->
     <div id="next">
@@ -89,6 +108,14 @@
           <label for="checkbox" class="fourth">Remember Me</label>
         </div> -->
           <input type="submit" value="Sign up" id="signUp" />
+          <p class="other_side">OR</p>
+<div class="icons">
+  
+<i class="fab fa-facebook"></i>
+<i class="fab fa-google"></i>
+<i class="fab fa-linkedin"></i>
+<i class="fab fa-apple"></i>
+</div>
         </div>
 
         <p>
@@ -99,5 +126,15 @@
       </form>
     </div>
     <script src="./app.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type = 'text/javascript'>
+    Swal.fire({
+  title: 'Welcome',
+  icon: 'success',
+  confirmButtonText: 'OK, Continue'
+})
+    
+    
+    </script>
   </body>
 </html>
